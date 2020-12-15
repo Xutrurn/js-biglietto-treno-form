@@ -10,7 +10,7 @@ body {
   /* aggiungere font */
 }
 
-h1 {
+h1, h2 {
   color: white;
   text-transform: uppercase;
   font-size: 28px;
@@ -66,3 +66,18 @@ input:focus, select:focus{
   color: black;
   border: 2px solid #b91450;
 }
+
+.btn:hover{
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+/* #ticket{
+  max-width: 1300px;
+  background-color: white;
+  margin: auto;
+} */
+
+/* .ticket{
+  visibility: hidden;
+} */
