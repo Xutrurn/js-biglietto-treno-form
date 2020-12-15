@@ -8,6 +8,7 @@ console.log(age);
 var fullPrice = km * 0.21;
 var offer = "Maggiorenne"
 
+
 if (age == "juniorPrice") {
   fullPrice -= fullPrice * .2;
   offer = "Minorenne"
@@ -16,6 +17,9 @@ if (age == "juniorPrice") {
   offer = "Over"
 }
 
+// random
+document.getElementById("carriage").innerHTML = Math.floor(Math.random() * 9) + 1;
+document.getElementById("raceCode").innerHTML = Math.floor(Math.random() * 10000) + 90001;
 
 
 console.log(fullPrice.toFixed(2));
