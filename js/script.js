@@ -3,29 +3,26 @@
 var userInfo = document.getElementById("userInfo").value;
 var km = document.getElementById("km").value;
 var age = document.getElementById("age").value;
+console.log(age);
 
-fullPrice = km * 0.21;
-juniorPrice = fullPrice - fullPrice * 20 / 100;
-seniorPrice = fullPrice - fullPrice * 40 / 100;
+var fullPrice = km * 0.21;
+var offer = "Maggiorenne"
 
-if (age < 18) {
-  price = juniorPrice;
+if (age == "juniorPrice") {
+  fullPrice -= fullPrice * .2;
   offer = "Minorenne"
-} else if (age > 65) {
-  price = seniorPrice;
+} else if (age == "seniorPrice") {
+  fullPrice -= fullPrice * .4;
   offer = "Over"
-
-} else {
-  price = fullPrice;
-  offer = "Maggiorenne"
-
 }
 
-console.log(price.toFixed(2));
+
+
+console.log(fullPrice.toFixed(2));
 console.log(userInfo, km, age);
 
 
 // write values
 document.getElementById("show-name").innerHTML = userInfo;
 document.getElementById("offer").innerHTML = offer;
-document.getElementById("price").innerHTML = price.toFixed(2) + "€";
+document.getElementById("fullPrice").innerHTML = fullPrice.toFixed(2) + "€";
