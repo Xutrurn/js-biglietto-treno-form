@@ -44,6 +44,8 @@ annulla.addEventListener("click", function() {
 
   document.getElementById("userInfo").value = "";
   document.getElementById("km").value = "";
+  document.getElementById("age").value = "";
+
   document.getElementById("carriage").value = "";
   document.getElementById("raceCode").innerHTML = "";
   document.getElementById("show-name").innerHTML = "";

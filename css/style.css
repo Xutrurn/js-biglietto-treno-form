@@ -72,6 +72,10 @@ input:focus, select:focus{
   transform: scale(1.04);
 }
 
+.uitab td, .uitab th{
+  border: 1px solid #808080;
+}
+
 /* #ticket{
   max-width: 1300px;
   background-color: white;
