@@ -78,6 +78,6 @@ input:focus, select:focus{
   margin: auto;
 } */
 
-/* .ticket{
+#biglietto{
   visibility: hidden;
-} */
+}
