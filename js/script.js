@@ -42,9 +42,9 @@ genera.addEventListener("click", function() {
 var annulla = document.getElementById("annulla");
 annulla.addEventListener("click", function() {
 
-  document.getElementById("userInfo").innerHTML = "";
-  document.getElementById("km").innerHTML = "";
-  document.getElementById("carriage").innerHTML = "";
+  document.getElementById("userInfo").value = "";
+  document.getElementById("km").value = "";
+  document.getElementById("carriage").value = "";
   document.getElementById("raceCode").innerHTML = "";
   document.getElementById("show-name").innerHTML = "";
   document.getElementById("offer").innerHTML = "";
