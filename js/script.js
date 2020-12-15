@@ -1,5 +1,9 @@
 // alert("Hello world");
 
+var genera = document.getElementById("genera");
+genera.addEventListener("click", function()
+{
+
 var userInfo = document.getElementById("userInfo").value;
 var km = document.getElementById("km").value;
 var age = document.getElementById("age").value;
@@ -30,3 +34,8 @@ console.log(userInfo, km, age);
 document.getElementById("show-name").innerHTML = userInfo;
 document.getElementById("offer").innerHTML = offer;
 document.getElementById("fullPrice").innerHTML = fullPrice.toFixed(2) + "€";
+
+
+
+
+});
