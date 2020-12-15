@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
+  <title>Train Ticket</title>
 </head>
 
 <body>
@@ -30,9 +30,9 @@
         <div class="col">
           <label for="age">Fascia d'età</label>
           <select id="age">
-            <option value="minorenne">Minorenne</option>
-            <option value="maggiorenne">Maggiorenne</option>
-            <option value="over">Over 65</option>
+            <option value="juniorPrice">Minorenne</option>
+            <option value="fullPrice">Maggiorenne</option>
+            <option value="seniorPrice">Over 65</option>
           </select>
         </div>
       </div>
@@ -58,7 +58,7 @@
           <div class="col">
             <h3>Nome Passeggero</h3>
             <div id="show-name" class="">
-              
+
             </div>
           </div>
           <div class="col">
@@ -70,10 +70,10 @@
                 <th>Costo</th>
               </tr>
               <tr>
-                <td>off</td>
+                <td id="offer"></td>
                 <td>ca</td>
                 <td>co</td>
-                <td>cos</td>
+                <td id="price"></td>
               </tr>
             </table>
           </div>
